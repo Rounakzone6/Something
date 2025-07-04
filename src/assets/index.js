@@ -4,7 +4,7 @@ import image3 from "./03.jpg";
 import image4 from "./04.jpg";
 import image5 from "./05.jpg";
 import callToAction from "./call-to-action.jpg";
-import contact from "./contact.jpg";
+import contact from "./Contact.jpg";
 import laptop from "./laptop.jpg";
 import pricing from "./pricing.jpg";
 import showcase1 from "./showcase-1.jpg";
@@ -147,45 +147,45 @@ export const plans = [
     title: "Starter",
     price: "999",
     list: [
-      [true,"2 GB of space"],
-      [true,"14 days of backups"],
-      [true,"Social Integrations"],
-      [true,"Client billing"],
-      [false,"Remote access"],
-      [false,"Custom domain"],
-      [false,"24 hours support"],
-      [false,"Admin tools"],
-      [false,"Collaboration tools"],
+      [true, "2 GB of space"],
+      [true, "14 days of backups"],
+      [true, "Social Integrations"],
+      [true, "Client billing"],
+      [false, "Remote access"],
+      [false, "Custom domain"],
+      [false, "24 hours support"],
+      [false, "Admin tools"],
+      [false, "Collaboration tools"],
     ],
   },
   {
     title: "Professional",
     price: "1999",
     list: [
-      [true,"2 GB of space"],
-      [true,"14 days of backups"],
-      [true,"Social Integrations"],
-      [true,"Client billing"],
-      [true,"Remote access"],
-      [true,"Custom domain"],
-      [false,"24 hours support"],
-      [false,"Admin tools"],
-      [false,"Collaboration tools"],
+      [true, "2 GB of space"],
+      [true, "14 days of backups"],
+      [true, "Social Integrations"],
+      [true, "Client billing"],
+      [true, "Remote access"],
+      [true, "Custom domain"],
+      [false, "24 hours support"],
+      [false, "Admin tools"],
+      [false, "Collaboration tools"],
     ],
   },
   {
     title: "Premium",
     price: "4999",
     list: [
-      [true,"2 GB of space"],
-      [true,"14 days of backups"],
-      [true,"Social Integrations"],
-      [true,"Client billing"],
-      [true,"Remote access"],
-      [true,"Custom domain"],
-      [true,"24 hours support"],
-      [true,"Admin tools"],
-      [true,"Collaboration tools"],
+      [true, "2 GB of space"],
+      [true, "14 days of backups"],
+      [true, "Social Integrations"],
+      [true, "Client billing"],
+      [true, "Remote access"],
+      [true, "Custom domain"],
+      [true, "24 hours support"],
+      [true, "Admin tools"],
+      [true, "Collaboration tools"],
     ],
   },
 ];

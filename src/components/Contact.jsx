@@ -51,7 +51,11 @@ const Contact = () => {
           <div className="flex justify-around items-center gap-2">
             <div>
               <p>YOUR NAME</p>
-              <input type="text" className="border pl-2 py-0.5 rounded-full" placeholder="Your Name" />
+              <input
+                type="text"
+                className="border pl-2 py-0.5 rounded-full"
+                placeholder="Your Name"
+              />
             </div>
             <div>
               <p>BUDGET</p>
@@ -67,15 +71,30 @@ const Contact = () => {
           </div>
           <div>
             <p>INPUT FIELD</p>
-            <input type="email" placeholder="name@gmail.com" className="border w-full pl-2 py-0.5 rounded-full" />
+            <input
+              type="email"
+              placeholder="name@gmail.com"
+              className="border w-full pl-2 py-0.5 rounded-full"
+            />
           </div>
           <div>
             <p>YOUR MESSAGE</p>
-            <textarea name="message" placeholder="Type your message..." className="border w-full pl-2 py-0.5 rounded-xl" />
+            <textarea
+              name="message"
+              placeholder="Type your message..."
+              className="border w-full pl-2 py-0.5 rounded-xl"
+            />
           </div>
           <div className="flex justify-between items-center">
-            <p><input type="checkbox" /> Send me a copy</p>
-            <button className="bg-[#2adbc6] px-10 cursor-pointer font-medium text-gray-50 py-2 rounded-full"  type="submit">Send</button>
+            <p>
+              <input type="checkbox" /> Send me a copy
+            </p>
+            <button
+              className="bg-[#2adbc6] px-10 cursor-pointer font-medium text-gray-50 py-2 rounded-full"
+              type="submit"
+            >
+              Send
+            </button>
           </div>
         </div>
       </div>

@@ -27,7 +27,10 @@ const Team = () => {
         </p>
         <div className="flex flex-wrap gap-6 mt-8">
           {team.map((member, idx) => (
-            <div key={idx} className="bg-white md:w-[25vw] w-full p-4 rounded-xl shadow text-center">
+            <div
+              key={idx}
+              className="bg-white md:w-[25vw] w-full p-4 rounded-xl shadow text-center"
+            >
               <div
                 className="w-32 h-32 min-w-32 min-h-32 bg-cover bg-center rounded-full border mx-auto"
                 style={{ backgroundImage: `url(${member.img})` }}
@@ -36,7 +39,11 @@ const Team = () => {
               <p className="text-sm text-gray-600">{member.role}</p>
               <div className="flex justify-center gap-4 mt-3 text-[#2f1893] text-xl">
                 {(member.links ?? []).map((icon, i) => (
-                  <FontAwesomeIcon className="cursor-pointer" icon={icon} key={i} />
+                  <FontAwesomeIcon
+                    className="cursor-pointer"
+                    icon={icon}
+                    key={i}
+                  />
                 ))}
               </div>
             </div>

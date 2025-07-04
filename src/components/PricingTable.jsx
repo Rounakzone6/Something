@@ -37,7 +37,9 @@ const PricingTable = () => {
                     {!item[0] && <span className="inline-block w-4 mr-2" />}{" "}
                     {/* For spacing */}
                     {item[0] && <p className="text-white">{item[1]}</p>}
-                    {!item[0] && <p className="text-gray-400">{item[1]}</p>}{" "}
+                    {!item[0] && (
+                      <p className="text-gray-400">{item[1]}</p>
+                    )}{" "}
                   </li>
                 ))}
               </ul>
