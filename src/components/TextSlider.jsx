@@ -1,26 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
-
-const slides = [
-  {
-    heading: "Startup 1",
-    title: "Forget About Code",
-    subtitle:
-      "Startup Framework gives you complete freedom over your creative process — no coding required.",
-  },
-  {
-    heading: "Startup 2",
-    title: "Design with Freedom",
-    subtitle:
-      "Easily design clean, responsive interfaces with drag and drop tools and UI kits.",
-  },
-  {
-    heading: "Startup 3",
-    title: "Launch Fast",
-    subtitle:
-      "Build and launch your startup website in hours, not days or weeks.",
-  },
-];
+import { slides } from "../assets";
 
 const TextSlider = () => {
   const settings = {
@@ -35,17 +15,18 @@ const TextSlider = () => {
   };
 
   return (
-    <div className="w-full px-4 py-10 bg-gradient-to-b text-white flex items-center justify-center text-center min-h-[60vh] sm:min-h-[70vh]">
-      <Slider {...settings} className="w-full max-w-3xl mx-auto">
-        {slides.map((slide, i) => (
-          <div key={i} className="px-4">
-            <h4 className="text-lg text-purple-200 mb-2">{slide.heading}</h4>
-            <h2 className="text-3xl md:text-5xl font-bold mb-4">
-              {slide.title}
-            </h2>
-            <p className="text-gray-200 max-w-xl mx-auto">{slide.subtitle}</p>
-          </div>
-        ))}
+    <div className="w-[100%]">
+      <Slider {...settings} className="w-[70vw] md:max-w-4xl mx-auto ml-10">
+      {slides.map((item, index) => (
+        <div
+          key={index}
+          className="flex items-center justify-center flex-col text-center"
+        >
+          <p className="md:text-2xl text-purple-300 mb-2">{item.heading}</p>
+          <h2 className="text-4xl md:text-5xl font-medium mb-4">{item.title}</h2>
+          <p className="text-gray-200 md:text-xl">{item.subtitle}</p>
+        </div>
+      ))}
       </Slider>
     </div>
   );

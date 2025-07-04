@@ -29,7 +29,7 @@ const Team = () => {
           {team.map((member, idx) => (
             <div
               key={idx}
-              className="bg-white md:w-[25vw] w-full p-4 rounded-xl shadow text-center"
+              className="bg-white hover:scale-101 transition-all duration-500 cursor-pointer shadow-2xl md:w-[25vw] w-full p-4 rounded-xl shadow text-center"
             >
               <div
                 className="w-32 h-32 min-w-32 min-h-32 bg-cover bg-center rounded-full border mx-auto"

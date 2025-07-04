@@ -37,9 +37,9 @@ const Form = () => {
         </div>
         <div className="border min-w-[40%] rounded-2xl bg-[#FFFFFF] text-black flex flex-col gap-4">
           <div className="flex border-b border-b-gray-300 justify-around items-center p-3 font-medium text-gray-600">
-            <p onClick={handleLogin}>SIGN UP</p>
+            <p className="cursor-pointer hover:text-black" onClick={handleLogin}>SIGN UP</p>
             <div className="w-px h-8 bg-gray-300" />
-            <p onClick={handleLogin}>LOG IN</p>
+            <p className="cursor-pointer hover:text-black" onClick={handleLogin}>LOG IN</p>
           </div>
           <div className="px-6 flex flex-col gap-4">
             <div className="relative w-full">

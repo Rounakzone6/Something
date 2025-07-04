@@ -19,7 +19,7 @@ const PricingTable = () => {
           {plans.map((plan, index) => (
             <div
               key={index}
-              className="border border-gray-500 md:w-[23vw] w-full p-6 my-4 rounded-xl shadow-2xl"
+              className="border cursor-pointer hover:scale-101 transition-all duration-500 border-gray-500 md:w-[23vw] w-full p-6 my-4 rounded-xl shadow-2xl"
             >
               <p className="text-xl text-gray-200 font-bold">{plan.title}</p>
               <p className="text-3xl text-gray-100 my-2 font-semibold">

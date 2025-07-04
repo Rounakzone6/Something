@@ -53,6 +53,28 @@ export default {
   laptop,
 };
 
+export const slides = [
+  {
+    heading: "Startup 1",
+    title: "Forget About Code",
+    subtitle:
+      "Startup Framework gives you complete freedom over your creative process — no coding required.",
+  },
+  {
+    heading: "Startup 2",
+    title: "Design with Freedom",
+    subtitle:
+      "Easily design clean, responsive interfaces with drag and drop tools and UI kits.",
+  },
+  {
+    heading: "Startup 3",
+    title: "Launch Fast",
+    subtitle:
+      "Build and launch your startup website in hours, not days or weeks.",
+  },
+];
+
+
 export const showcase = [
   {
     id: 1,
